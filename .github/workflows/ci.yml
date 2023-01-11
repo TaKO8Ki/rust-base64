@@ -24,3 +24,7 @@ jobs:
         bundler-cache: true
     - name: Run build task
       run: bundle exec rake build
+    - name: Run build task
+      run: bundle exec rake install
+    - name: Benchmark
+      run: bundle exec ruby benchmark.rb
