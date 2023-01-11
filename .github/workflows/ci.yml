@@ -25,6 +25,6 @@ jobs:
     - name: Run build task
       run: bundle exec rake build
     - name: Run build task
-      run: bundle exec rake install
+      run: rake install
     - name: Benchmark
       run: bundle exec ruby benchmark.rb
