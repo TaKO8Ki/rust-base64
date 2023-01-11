@@ -1,0 +1,13 @@
+[package]
+name = "rust_base64"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rb-sys = "0.9"
+rb-allocator = "0.9"
+magnus = { version = "0.4", features = ["rb-sys-interop"] }
+base64 = "0.21.0"
