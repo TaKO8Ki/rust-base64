@@ -21,7 +21,8 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: ${{ matrix.ruby }}
+        bundler-cache: true
     - name: Run build task
-      run: bundle exec rake install
+      run: bundle exec rake
     - name: Benchmark
       run: bundle exec ruby benchmark.rb
