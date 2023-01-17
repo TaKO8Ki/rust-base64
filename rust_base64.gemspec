@@ -5,12 +5,12 @@ require_relative "lib/rust_base64/version"
 Gem::Specification.new do |spec|
   spec.name = "rust_base64"
   spec.version = RustBase64::VERSION
-  spec.authors = ["MATSUMOTO, Katsuyoshi"]
-  spec.email = ["github@katsyoshi.org"]
+  spec.authors = ["TaKO8Ki"]
+  spec.email = ["takoyaki0316@gmail.com"]
 
-  spec.summary = "Generate UUID using rust"
-  spec.description = "Generate UUID using rust"
-  spec.homepage = "https://github.com/katsyoshi/rust_base64"
+  spec.summary = "Blazing-fast base64 encoder/decoder"
+  spec.description = "Blazing-fast base64 encoder/decoder"
+  spec.homepage = "https://github.com/TaKO8Ki/rust_base64"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
 
