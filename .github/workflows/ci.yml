@@ -24,7 +24,7 @@ jobs:
         bundler-cache: true
     - uses: Swatinem/rust-cache@v2
     - name: Run build task
-      run: bundle exec rake
+      run: bundle exec rake install
       continue-on-error: true
     - run: ls vendor/bundle/ruby/3.2.0/gems/
     - name: Benchmark
