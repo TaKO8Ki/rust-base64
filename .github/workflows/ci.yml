@@ -26,6 +26,6 @@ jobs:
     - name: Run build task
       run: bundle exec rake
       continue-on-error: true
-    - run: ls vendor/bundle/ruby/3.2.0/gems/rust_base64-0.1.0
+    - run: ls vendor/bundle/ruby/3.2.0/gems/
     - name: Benchmark
       run: bundle exec ruby benchmark.rb
