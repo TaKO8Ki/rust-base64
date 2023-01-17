@@ -1,6 +1,7 @@
 [package]
 name = "rust_base64"
 version = "0.1.0"
+authors = ["TaKO8Ki <takoyaki0316@gmail.com>"]
 edition = "2021"
 
 [lib]
